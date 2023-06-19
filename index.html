@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Martian+Mono:wght@200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@300;600&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,600;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,800;0,900;1,100;1,300;1,400;1,500;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,500;0,600;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  <section class="container">
+    <header>
+      <nav class="nav-bar">
+<a href="#">
+  <img class="logo" src="./images/logo.png" alt="music logo">
+</a>
+<ul class="list-items">
+  <li><a href="#">HOME</a></li>
+  <li><a href="#">ABOUT</a></li>
+  <li><a href="#">NEW SONG</a></li>
+  <li><a href="#">ALBUM</a></li>
+  <li><a href="#">CONTACT</a></li>
+</ul>
+<img class="menu" src="./images/menu.png" alt="menu">
+      </nav>
+    </header>
+    <div class="info">
+      <div class="left">
+       <h1>MUSIC <br> FOR <br> THE <br> <span>PEOPLE</span></h1>
+      </div>
+      <div class="right">
+        <p>Click To Play</p>
+        <img src="./images/play-circle.png" alt="play icon" id="icon">
+      </div>
+    </div>
+
+    <audio id="mysong">
+<source src="./music/song1.mp3" type="audio/mp3" >
+    </audio>
+  </section>
+
+  <script src="script.js" ></script>
+</body>
+</html>

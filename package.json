@@ -1,0 +1,23 @@
+{
+  "name": "music-app",
+  "version": "1.0.0",
+  "description": "<!-- HOW TO USE: This is an example of how you may give instructions on setting up your project locally.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaBeki/Music-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaBeki/Music-app/issues"
+  },
+  "homepage": "https://github.com/DianaBeki/Music-app#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
