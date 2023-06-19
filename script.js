@@ -4,9 +4,9 @@ let icon = document.getElementById('icon');
 icon.onclick = function(){
 if(mysong.paused){
    mysong.play();
-   icon.scr = "./images/pause-circle.png";
+   icon.src = "./images/pause-circle.png";
 }else{
   mysong.pause();
-  icon.scr = "./images/play-circle.png";
+  icon.src = "./images/play-circle.png";
 }
 }
